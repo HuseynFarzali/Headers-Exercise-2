@@ -46,7 +46,7 @@ body .nav-light-mode .up-container .main-logo {
   background-image: url("../../images/PTON_BIG.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 75%;
+  background-size: auto 60%;
 }
 body .nav-light-mode .up-container .settings-section {
   display: flex;
@@ -59,6 +59,25 @@ body .nav-light-mode .up-container .settings-section {
 }
 body .nav-light-mode .up-container .settings-section i {
   color: #151d20;
+}
+body .nav-light-mode .up-container .settings-section a {
+  position: relative;
+}
+body .nav-light-mode .up-container .settings-section a .notif {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid #e3e3e3;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .nav-light-mode .down-container {
   flex: 2;
@@ -142,7 +161,7 @@ body .nav-dark-mode .up-container .main-logo {
   background-image: url("../../images/PTON_BIG.D-9465ad88-white.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 75%;
+  background-size: auto 60%;
 }
 body .nav-dark-mode .up-container .settings-section {
   display: flex;
@@ -155,6 +174,25 @@ body .nav-dark-mode .up-container .settings-section {
 }
 body .nav-dark-mode .up-container .settings-section i {
   color: #fbfbfb;
+}
+body .nav-dark-mode .up-container .settings-section a {
+  position: relative;
+}
+body .nav-dark-mode .up-container .settings-section a .notif {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid #e3e3e3;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .nav-dark-mode .down-container {
   flex: 2;

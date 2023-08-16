@@ -55,7 +55,7 @@ body {
                 background-image: url('../../images/PTON_BIG.png');
                 background-position: center;
                 background-repeat: no-repeat;
-                background-size: auto 75%;
+                background-size: auto 60%;
             }
 
             .settings-section {
@@ -70,6 +70,29 @@ body {
 
                 i {
                     color: $dark-mode-bgc;
+                }
+
+                a {
+                    position: relative;
+
+                    .notif {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        transform: translate(50%, -50%);
+                        width: 16px;
+                        height: 16px;
+        
+                        border-radius: 50%;
+                        background-color: red;
+                        border: 1px solid #e3e3e3;
+                        color: white;
+                        font-size: 10px;
+    
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
                 }
             }
         }
@@ -173,7 +196,7 @@ body {
                 background-image: url('../../images/PTON_BIG.D-9465ad88-white.png');
                 background-position: center;
                 background-repeat: no-repeat;
-                background-size: auto 75%;
+                background-size: auto 60%;
             }
 
             .settings-section {
@@ -188,6 +211,29 @@ body {
 
                 i {
                     color: $light-mode-bgc;
+                }
+
+                a {
+                    position: relative;
+
+                    .notif {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        transform: translate(50%, -50%);
+                        width: 16px;
+                        height: 16px;
+        
+                        border-radius: 50%;
+                        background-color: red;
+                        border: 1px solid #e3e3e3;
+                        color: white;
+                        font-size: 10px;
+    
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
                 }
             }
         }

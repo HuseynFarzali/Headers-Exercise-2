@@ -1,0 +1,16 @@
+{
+  "name": "headers_exercise_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss--compile-all": "sass styles/scss:styles/css --no-source-map",
+    "scss--compile-all-watch": "sass --watch styles/scss:styles/css --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.65.1"
+  }
+}
